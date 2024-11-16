@@ -73,5 +73,5 @@ There are two types of logs: those that have a level and those that are a series
 
 ![LogsStrategy](loglevel-strat.png)
 
-> ![TIP]
+> [!TIP]
 > Logging too much data at WARN will fill your monitoring system with data that is of limited value, and then you may lose important data in the sheer volume of messages.
