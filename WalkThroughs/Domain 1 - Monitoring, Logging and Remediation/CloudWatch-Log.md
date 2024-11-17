@@ -86,3 +86,6 @@ Resources:
 
 1. https://docs.aws.amazon.com/ja_jp/cli/latest/reference/logs/filter-log-events.html
 2. https://docs.aws.amazon.com/ja_jp/cli/latest/reference/logs/put-retention-policy.html
+
+### Other Tutorials (Hands-On):
+1. https://github.com/ExamProCo/AWS-Examples/tree/main/cloudwatch/logs/basic
