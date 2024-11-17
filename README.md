@@ -138,4 +138,5 @@ Task Statement 6.2: Implement performance optimization strategies.
 -   https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf
 -   AWS Documentation
 -   "Prepare for the AWS SysOps Adminstrator Associate (SOA-C02) - Full Course to PASS the Exam" Youtube Video - https://www.youtube.com/watch?v=QN574SUEP2I
--   Stephen Maarek - Udemy Video
+-   Stephen Maarek - Udemy Video (Free - If you have an education account)
+-   AWS Skillbuilder - Exam Prep Standard Course (Free)
