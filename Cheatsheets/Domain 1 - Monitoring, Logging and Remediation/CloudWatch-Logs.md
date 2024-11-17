@@ -78,7 +78,7 @@ There are two types of logs: those that have a level and those that are a series
 | ERROR | Error events that might still allow the application to continue running. These are likely to trigger an alarm that requires attention.        |
 | FATAL | Very severe error events that will presumably cause an application to abort.                                                                  |
 
-![LogsStrategy](loglevel-strat.png)
+![LogsStrategy](./Images/loglevel-strat.png)
 
 > [!TIP]
 > Logging too much data at WARN will fill your monitoring system with data that is of limited value, and then you may lose important data in the sheer volume of messages.
