@@ -23,7 +23,12 @@ CloudWatch Logs offers two classes of log groups:
 
 -   The CloudWatch Logs Infrequent Access log class is a new log class that you can use to cost-effectively consolidate your logs. This log class offers a subset of CloudWatch Logs capabilities including managed ingestion, storage, cross-account log analytics, and encryption with a lower ingestion price per GB. The Infrequent Access log class is ideal for ad-hoc querying and after-the-fact forensic analysis on infrequently accessed logs.
 
-- Essentially, it is a container for collection of log streams. Uses the forward slash naming convention eg. /my-app/prod/us-east/
+-   Essentially, it is a container for collection of log streams. Uses the forward slash naming convention eg. /my-app/prod/us-east/
+
+**What about log streams?**
+
+-   A log stream is a **sequence of log events** that share the same source (application/instance) that is being monitored.
+-   To know more about the various steps to create log group/sending logs to log group/view log data sent to CloudWatch Logs/Change log data retention/Creating tags - we can take a look at AWS Documentation which provides the steps and guidance to it. (https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html)
 
 ### What can we do with CloudWatch Logs?
 
@@ -32,7 +37,6 @@ CloudWatch Logs offers two classes of log groups:
 -   **Monitor AWS CloudTrail logged events** - We can create alarms in CloudWatch and receive notifications of particular API activity as captured by CloudTrail and use the notification to perform troubleshooting
 -   **Monitor logs from Amazon EC2 instances** – We can use CloudWatch Logs to monitor applications and systems using log data.
 -   **Query your log data** – We can use CloudWatch Logs Insights to interactively search and analyze our log data. We can perform queries to help us more efficiently and effectively respond to operational issues.
-
 
 ### Structured logging is key to success
 
