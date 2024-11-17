@@ -21,6 +21,7 @@ CloudWatch Logs Insights are commonly used via the console to do ad-hoc queries 
 
 All commands are supported on log groups in the **Standard** log class. Log groups in the **Infrequent Access** log class support all query commands except **pattern, diff, and unmask**.
 
+| ------------- | ------------- |
 | display | Displays a specific field or fields in query results. |
 | fields | Displays specific fields in query results and supports functions and operations you can use to modify field values and create new fields to use in your query. |
 | filter | Filters the query to return only the log events that match one or more conditions. |
