@@ -2,6 +2,11 @@
 
 This repository contains a comprehensive cheatsheet and mini projects aimed at building and enhancing sysops skills, designed specifically to support preparation for the AWS-SOA-C02 certification exam.
 
+> [!NOTE]
+> Join me on my journey as I prepare for the AWS Certified SysOps Administrator Associate exam. These notes are part of my personal learning process, inspired by the incredible teachings of Stephen and Andrew—thank you both for the amazing content that made understanding these concepts so accessible.
+
+The notes presented here are concise summaries that I’ve curated based on the knowledge shared in their videos and supplemented with insights from AWS documentation. While I strive for accuracy, please note that these are part of my learning experience, so there might be occasional inaccuracies. I appreciate your understanding and hope these notes can also be helpful to others in their own AWS journey.
+
 ## Exam Domains
 
 -   Domain 1: Monitoring, Logging, and Remediation **20%**
@@ -135,3 +140,4 @@ Task Statement 6.2: Implement performance optimization strategies.
 -   https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf
 -   AWS Documentation
 -   "Prepare for the AWS SysOps Adminstrator Associate (SOA-C02) - Full Course to PASS the Exam" Youtube Video - https://www.youtube.com/watch?v=QN574SUEP2I
+-   Stephen Maarek - Udemy Video
