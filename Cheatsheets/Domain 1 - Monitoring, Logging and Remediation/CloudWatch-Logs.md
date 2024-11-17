@@ -23,6 +23,8 @@ CloudWatch Logs offers two classes of log groups:
 
 -   The CloudWatch Logs Infrequent Access log class is a new log class that you can use to cost-effectively consolidate your logs. This log class offers a subset of CloudWatch Logs capabilities including managed ingestion, storage, cross-account log analytics, and encryption with a lower ingestion price per GB. The Infrequent Access log class is ideal for ad-hoc querying and after-the-fact forensic analysis on infrequently accessed logs.
 
+- Essentially, it is a container for collection of log streams. Uses the forward slash naming convention eg. /my-app/prod/us-east/
+
 ### What can we do with CloudWatch Logs?
 
 -   **Log Route 53 DNS queries** - We can use CloudWatch Logs to log information about the DNS queries that Route 53 receives.
@@ -30,6 +32,7 @@ CloudWatch Logs offers two classes of log groups:
 -   **Monitor AWS CloudTrail logged events** - We can create alarms in CloudWatch and receive notifications of particular API activity as captured by CloudTrail and use the notification to perform troubleshooting
 -   **Monitor logs from Amazon EC2 instances** – We can use CloudWatch Logs to monitor applications and systems using log data.
 -   **Query your log data** – We can use CloudWatch Logs Insights to interactively search and analyze our log data. We can perform queries to help us more efficiently and effectively respond to operational issues.
+
 
 ### Structured logging is key to success
 
