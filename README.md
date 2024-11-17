@@ -133,10 +133,10 @@ Task Statement 6.2: Implement performance optimization strategies.
 -   Monitor RDS metrics and modify the configuration to increase performance efficiency (E.g., Performance Insights, RDS Proxy).
 -   Enable enhanced EC2 capabilities (for example, Elastic Network Adapter, instance store, placement groups).
 
-### Resources:
+### Resources (In Sequence):
 
 -   https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf
+-   "Prepare for the AWS SysOps Adminstrator Associate (SOA-C02) - Full Course to PASS the Exam" Youtube Video - https://www.youtube.com/watch?v=QN574SUEP2I OR Stephen Maarek - Udemy Video (Free - If you have an education account)
 -   AWS Documentation
--   "Prepare for the AWS SysOps Adminstrator Associate (SOA-C02) - Full Course to PASS the Exam" Youtube Video - https://www.youtube.com/watch?v=QN574SUEP2I
--   Stephen Maarek - Udemy Video (Free - If you have an education account)
 -   AWS Skillbuilder - Exam Prep Standard Course (Free)
+-   https://youtube.com/playlist?list=PL7GozF-qZ4Kdcx-hZOl7J_5sp6Qma9PF7&si=yWhJqqD-IX_zuRxR (Practice Questions)
