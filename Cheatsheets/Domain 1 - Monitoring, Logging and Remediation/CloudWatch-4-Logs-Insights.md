@@ -21,9 +21,20 @@ CloudWatch Logs Insights are commonly used via the console to do ad-hoc queries 
 
 All commands are supported on log groups in the **Standard** log class. Log groups in the **Infrequent Access** log class support all query commands except **pattern, diff, and unmask**.
 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Command | Description |
+| --- | --- |
+| display | Displays a specific field or fields in query results. |
+| fields | Displays specific fields in query results and supports functions and operations you can use to modify field values and create new fields to use in your query. |
+| filter | Filters the query to return only the log events that match one or more conditions. |
+| pattern | Automatically clusters your log data into patterns. A pattern is shared text structure that recurs among your log fields. CloudWatch Logs Insights provides ways for you to analyze the patterns found in your log events. |
+| diff | Compares the log events found in your requested time period with the log events from a previous time period of equal length, so that you can look for trends and find out if certain log events are new. |
+| parse | Extracts data from a log field to create an extracted field that you can process in your query. parse supports both glob mode using wildcards, and regular expressions. |
+| sort | Displays the returned log events in ascending (asc) or descending (desc) order. |
+| stats | Calculate aggregate statistics using values in the log fields. |
+| limit | Specifies a maximum number of log events that you want your query to return. Useful with sort to return "top 20" or "most recent 20" results. |
+| dedup | Removes duplicate results based on specific values in fields that you specify. |
+| unmask | Displays all the content of a log event that has some content masked because of a data protection policy. |
+| Other operations and functions | CloudWatch Logs Insights also supports many comparison, arithmetic, datetime, numeric, string, IP address, and general functions and operations. |
 
 ### CloudWatch Insights - Discovered Fields
 
