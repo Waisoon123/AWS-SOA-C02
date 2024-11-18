@@ -26,6 +26,14 @@ We also learnt that Metrics are uniquely defined by a **name, a namespace, and z
 -   We can filter for CPUUtilization in the search bar.
     ![EC2-CPU-Metrics](./Images/CPU-Metrics-EC2.png)
 
+### Get Metrics via CLI - list-metrics
+
+This command essentially list the specified metrics. You can use the returned metrics with GetMetricData or GetMetricStatistics to get statistical data as well.
+
+-   After you create a metric, allow up to 15 minutes for the metric to appear. I guess... if there's any other way we want to check the metric statistics sooner, we have to use those two commands mentioned above.
+
+-   https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/list-metrics.html
+
 ### Resources
 
 -   https://www.youtube.com/watch?v=AF7NogcOTvk&t=53s (0:53 - 9:33)
